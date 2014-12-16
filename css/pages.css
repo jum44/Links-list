@@ -1,6 +1,7 @@
 #block-menu-menu-autres-sites {
   display: inline-block;
   font-size: 0.929em;
+  position:relative;
 }
 #block-menu-menu-autres-sites .block-title {
   font-size: 1em;
