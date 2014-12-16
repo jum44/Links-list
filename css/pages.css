@@ -1,0 +1,44 @@
+#block-menu-menu-autres-sites {
+  display: inline-block;
+  font-size: 0.929em;
+}
+#block-menu-menu-autres-sites .block-title {
+  font-size: 1em;
+  color: #3b3b3b;
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px 5px 0 5px;
+}
+#block-menu-menu-autres-sites .menu {
+  z-index: 1;
+  border-radius: 5px;
+  zoom: 1;
+  display: inline-block;
+  min-width: 220px;
+  padding: 2px 5px 2px 10px;
+  background: url('../img/select-red.png') no-repeat 205px 8px #fff;
+}
+#block-menu-menu-autres-sites .menu.js {
+  position: absolute;
+  bottom: 8px;
+}
+#block-menu-menu-autres-sites .menu:hover,
+#block-menu-menu-autres-sites .menu.focus {
+  background-image: none;
+}
+#block-menu-menu-autres-sites .menu:hover li.last,
+#block-menu-menu-autres-sites .menu.focus li.last {
+  background: url('../img/select-red.png') no-repeat 195px 5px #fff;
+}
+#block-menu-menu-autres-sites .menu li {
+  list-style: none;
+}
+#block-menu-menu-autres-sites .menu a {
+  color: #292425;
+}
+#block-menu-menu-autres-sites .first {
+  display: block;
+}
+#block-menu-menu-autres-sites .menu {
+  margin: 0;
+}
