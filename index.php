@@ -21,10 +21,10 @@
                     <h2 class="block-title">Autres sites</h2>
 
                     <ul class="menu">
-                        <li class="menu__item first"><a href="http://www.grandir.sidaction.org/" title="">Grandir</a></li>
-                        <li class="menu__item"><a href="http://jeuneschercheurs.sidaction.org/" title="">Jeunes chercheurs</a></li>
-                        <li class="menu__item"><a href="http://sidaction.org" title="">Sidaction</a></li>
-                        <li class="menu__item"><a href="http://http://www.iiep.unesco.org/" title="">Unesco</a></li>
+                        <li class="menu-item first"><a href="http://www.grandir.sidaction.org/" title="">Grandir</a></li>
+                        <li class="menu-item"><a href="http://jeuneschercheurs.sidaction.org/" title="">Jeunes chercheurs</a></li>
+                        <li class="menu-item"><a href="http://sidaction.org" title="">Sidaction</a></li>
+                        <li class="menu-item last"><a href="http://http://www.iiep.unesco.org/" title="">Unesco</a></li>
                     </ul>
                 </div>
             </article>

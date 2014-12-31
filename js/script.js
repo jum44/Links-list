@@ -15,19 +15,19 @@
     $(document).ready(function() {
 
         /*---------- = Navigation autres sites ----------*/
-        var allSibling = $('#block-menu-menu-autres-sites .menu__item:not(.first)');
+        var allSibling = $('#block-menu-menu-autres-sites .menu-item:not(.first)');
         allSibling.css('display','none');
 
         $('#block-menu-menu-autres-sites .menu').addClass('js');
  
         $('#block-menu-menu-autres-sites .menu').hover(
           function() {
-            $(this).children().slideDown();
+            $(this).children().stop( true, true ).fadeIn();
             $(this).children('.first').removeClass('no-active').addClass('active');
           },
           function() {
-            $(this).removeClass('active').addClass('no-active');
-            $(this).children(':not(".first")').slideUp();
+            $(this).children(':not(".first")').stop( true, true ).fadeOut();
+            $(this).children('.first').removeClass('active').addClass('no-active');
           }
         );
          
